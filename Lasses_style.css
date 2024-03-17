@@ -1,0 +1,82 @@
+<!-- padding er den interne afstand mellem tekst og border-->
+    <!-- border-radius er hvor meget afrunding af hjoerner-->
+    
+
+        .class-boble-1 {    //padding er den interne afstand mellem tekst og border
+                            //border-radius er hvor meget afrunding af hjoerner-->
+                            text-align: center;
+                            border-radius: 50%;
+                            width: 220px;
+                            height: 150px;
+                            background-color: white;
+                            float: left;
+                            padding-top:45px; //padding er den interne afstand mellem tekst og border
+                            
+                          }
+
+        .class-boble-2 {
+                            text-align: center;
+                            border-radius: 50%;
+                            width: 200px;
+                            height: 100px;
+                            background-color: white;
+                            float: left;
+                            padding-top: 50px;
+                            margin-top: 200px;
+                            margin-left: 150px;
+                            
+                          }
+
+        .class-header {
+                        background: linear-gradient(
+                                        105deg,
+                                        rgb(255 255 255 / 20%) 39%,
+                                        rgb(51 56 57 / 100%) 96%
+                                      ) center / 400px 200px no-repeat,
+                                    url("great_coffee.jpg") center no-repeat;
+
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        height: 400px;
+                        background-attachment: fixed;
+                        background-position: center;
+                       h2 {
+                              border-style: inner;
+                              border-align: center;
+                              text-align: center;
+                              color: white;
+                              border-width: 5px;
+                              padding: 55px;
+                              border-radius: 55px;
+                           };
+
+                         }
+      body { background-color: #3c3c3c; }
+
+      #div-tag-border1 { padding: 15px; background-color: #3c3c3c; }
+
+
+      .class-profil { border-radius: 50%; width: 90px;  float: left;}
+
+      .class-body-sektion1 {   background: linear-gradient(
+                                        105deg,
+                                        rgb(255 255 255 / 20%) 39%,
+                                        rgb(51 56 57 / 100%) 96%
+                                      ) center / 400px 200px no-repeat,
+                                    url("great_coffee.jpg") center no-repeat;
+
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        height: 400px;
+                        background-attachment: fixed;
+                        background-position: center;
+                      }  
+
+
+      .class-div-copyright {  clear:left;   }
+                      
+      a  {  background-color: white;
+            color: black;            
+          };
+
+
