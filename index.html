@@ -1,71 +1,128 @@
 <!DOCTYPE html>
-<html>
-  <!-- -->   
-  <head>
-    <title>LassePetersen.com</title>
-    <!-- Responsive webdesign er bla at benytte viewport til at enhver device type, tablet, mobil, laptop
-      som sagt forskellige skaermstoerrelser faar samme oplevelse saa at teksten dynamisk scalerer efter skaermstoerrelsen
-      saa at man ikke skal scrolle til hoejre for at laese hele teksten-->
 
+<html>
+
+  <title>
+    LassePetersen.com
+  </title>
+
+
+  <!-- Responsive webdesign er bla at benytte viewport til at enhver device type, tablet, mobil, laptop
+      som sagt forskellige skaermstoerrelser faar samme oplevelse saa at teksten dynamisk scalerer efter skaermstoerrelsen
+   -->
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-    <!--
-      <link rel="stylesheet" type="text/css" href="test.css" /> 
-    -->
-    <style>
-      .class_test { color: indigo; }
 
-      .class-sektion-global { color: rgb(231, 225, 225); background-color: black; }
+
+    <!-- padding er den interne afstand mellem tekst og border-->
+    <!-- border-radius er hvor meget afrunding af hjoerner-->
+    <style>
+
+        .class-boble-1 {
+                            text-align: center;
+                            border-radius: 50%;
+                            width: 220px;
+                            height: 150px;
+                            background-color: white;
+                            float: left;
+                            padding-top:45px; //padding er den interne afstand mellem tekst og border
+                            
+                          }
+
+        .class-boble-2 {
+                            text-align: center;
+                            border-radius: 50%;
+                            width: 200px;
+                            height: 100px;
+                            background-color: white;
+                            float: left;
+                            padding-top: 50px;
+                            margin-top: 200px;
+                            margin-left: 150px;
+                            
+                          }
+
+        .class-header {
+                        background: linear-gradient(
+                                        105deg,
+                                        rgb(255 255 255 / 20%) 39%,
+                                        rgb(51 56 57 / 100%) 96%
+                                      ) center / 400px 200px no-repeat,
+                                    url("great_coffee.jpg") center no-repeat;
+
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        height: 400px;
+                        background-attachment: fixed;
+                        background-position: center;
+                       h2 {
+                              border-style: inner;
+                              border-align: center;
+                              text-align: center;
+                              color: white;
+                              border-width: 5px;
+                              padding: 55px;
+                              border-radius: 55px;
+                           };
+
+                         }
+      body { background-color: #3c3c3c; }
+
+      #div-tag-border1 { padding: 15px; background-color: #3c3c3c; }
+
 
       .class-profil { border-radius: 50%; width: 90px;  float: left;}
-      
-      .class-sektion1 { color: rgb(252, 248, 248); background-color: darkgray; }
 
-      .class-sektion2 img { max-width: fit-content; max-height: 300px; }
+      .class-body-sektion1 {   background: linear-gradient(
+                                        105deg,
+                                        rgb(255 255 255 / 20%) 39%,
+                                        rgb(51 56 57 / 100%) 96%
+                                      ) center / 400px 200px no-repeat,
+                                    url("great_coffee.jpg") center no-repeat;
 
-      .class-img-baggrundsfarve { background-color: darkgray; }
-      
-      <!--alle h4 tags bliver blaa test h4 { color: blue; }-->
-      
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        height: 400px;
+                        background-attachment: fixed;
+                        background-position: center;
+                      }  
+
+
+      .class-div-copyright {  clear:left;   }
+                      
+      a  {  background-color: white;
+            color: black;            
+          };
+
     </style>
-    
-  </head>
-  
-  <body>
-      <div class="class-sektion-global">
-        LassePetersen.com
-        <br/>
-        <br/>
+
+
+  <head>
+      <div class="class-header">
         <img class="class-profil" src="mit-billede.jpeg"/>
-        <!---->
-        <!---->
-        <div class="class-sektion1">
-          <!---->
-          <!---->
-          <div>
-            <br/>
-            Hello, my name is Lasse Petersen and I'm a tech guy who really enjoys a good cup of coffee
-            and I'm really passionate about coding in Python.
-            <hr/>
-            <br/>
-            Very soon I will bring Good Mood with Quotes and Coffee
-          </div>
-             
-          
-          <br/>
-          <p>Have a nice day !</p>
-          <hr/>
-        </div>
-        @
+
+        <h2>Enjoy the Coffee !</h2>
+
+        <p class="class-boble-1">This is my Homepage. <br/> I'm a tech guy who enjoys<br/> a good cup of coffee !
+          <br/> I'm passionate about coding <br/> and Cybersecurity.
+        </p>
       </div>
-      <div class="class-sektion2">
-        <div class="class_test">
-          I'm working on the design, and very soon it will be finish !
+
+  </head>
+
+  <body>
+
+        <div class="class-body-sektion1">
+            <p class="class-boble-2">Feel free to contact me <br/> on Linkedin ! Use the link <br/> down below.              
+            </p>
         </div>
-        <div class="class-img-baggrundsfarve">
-          <img src="premium_photo-1673264933122-40a42e8f7fb9.avif"/>
-          <p>Copyright &copy; LassePetersen.com </p>
-        </div>
+
+      <div class="class-div-copyright">
+            <p style="color:white;">Copyright &copy; Lasse Petersen  | <a href="https://www.linkedin.com/in/lassepetersen-tech/"> Linkedin </a></p>
       </div>
+
   </body>
 </html>
+
+
+
